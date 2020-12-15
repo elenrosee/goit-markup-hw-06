@@ -655,13 +655,8 @@ body {
   display: block;
   margin-right: auto;
   margin-left: auto;
-
-  transition: background-color 250ms var(--timing-function);
 }
 
-.form > .btn:hover {
-  background: #188ce8;
-}
 /* оформление для сайта портфолио */
 
 .our-works {
