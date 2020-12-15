@@ -269,6 +269,18 @@
                     <li class="item"><a class="link linkedin" href=""></a></li>
                 </ul>
             </div>
+                <form class="footer-form">
+                  <h3 class="white-title">Подпишитесь на рассылку</h3>
+                  <label class="footer-label">
+                    <input class="footer-input" type="email" placeholder="E-mail">
+                  </label>
+                  <button class="footer-btn btn" type="submit">
+                    Подписаться
+                    <svg width="24px" height="24px">
+                        <use href="./images/icons/symbol-defs.svg#icon-send"></use>
+                    </svg> 
+                  </button>
+                </form>
         </div>
     </footer>
     <!-- modal window -->
@@ -315,10 +327,10 @@
                   <div class="form-field">
                     <textarea  class="form-input" name="comment" id="comment" placeholder="Введите текст"></textarea>
                   </div>
-                  <div class="checkbox">
-                    <input type="checkbox" name="agreement" id="agreement">
-                    <label for="agreement">Соглашаюсь с рассылкой и принимаю <a class="agreement-terms" href=""> Условия договора </a></label>
-                  </div>
+                  <label class="checkbox-label" for="agreement">
+                        <input class="checkbox" type="checkbox" name="agreement" id="agreement">
+                        <span class="checkbox-content">Соглашаюсь с рассылкой и принимаю <a class="agreement-terms" href=""> Условия договора </a></span>
+                  </label>
                   <button class="btn" type="submit">Отправить</button>
               </form> 
                             
