@@ -296,44 +296,37 @@
 
               <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
               <form class="form js-speaker-form">
-                  <p>Имя</p>
-                  <div class="form-field">
-                    <input class="form-input" type="text" name="name" id="name"/>  
-                    <label class="form-label" for="name">
-                       <svg class="input-icon icon-man" width="18px" height="18px">
-                          <use href="./images/icons/symbol-defs.svg#icon-man"></use>
-                       </svg>
-                    </label>
-                  </div>
-                  <p>Телефон</p>
-                  <div class="form-field">
-                    <input class="form-input" type="tel" name="tel" id="tel" /> 
-                    <label  class="form-label" for="tel">
-                        <svg class="input-icon" width="18px" height="18px">
-                            <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
-                        </svg>
-                    </label>
-                  </div>
-                  <p>Почта</p>
-                  <div class="form-field">                    
-                    <input class="form-input" type="email" name="mail" id="email">
-                    <label class="form-label" for="email">
-                        <svg class="input-icon" width="18px" height="18px">
-                            <use href="./images/icons/symbol-defs.svg#icon-email"></use>
-                        </svg>
-                    </label>
-                  </div>
-                  <p>Комментарий</p>
-                  <div class="form-field">
-                    <textarea  class="form-input" name="comment" id="comment" placeholder="Введите текст"></textarea>
-                  </div>
-                  <label class="checkbox-label" for="agreement">
-                        <input class="checkbox" type="checkbox" name="agreement" id="agreement">
-                        <span class="checkbox-content">Соглашаюсь с рассылкой и принимаю <a class="agreement-terms" href=""> Условия договора </a></span>
-                  </label>
-                  <button class="btn" type="submit">Отправить</button>
-              </form> 
-                            
+                <label class="form-field">
+                    <p>Имя</p>
+                    <input class="form-input" type="text" name="name"/>
+                    <svg class="input-icon icon-man" width="18px" height="18px">
+                        <use href="./images/icons/symbol-defs.svg#icon-man"></use>
+                    </svg>
+                </label>
+                <label class="form-field">
+                    <p>Телефон</p>
+                    <input class="form-input" type="tel" name="tel"/> 
+                    <svg class="input-icon" width="18px" height="18px">
+                        <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
+                    </svg>
+                </label>
+                <label class="form-field">
+                    <p>Почта</p>
+                    <input class="form-input" type="email" name="mail"
+                    <svg class="input-icon" width="18px" height="18px">
+                        <use href="./images/icons/symbol-defs.svg#icon-email"></use>
+                    </svg>
+                </label>
+                <label class="form-field">
+                    <p>Комментарий</p>
+                    <textarea  class="form-input" name="comment" placeholder="Введите текст"></textarea>
+                </label>                
+                <label class="checkbox-label">
+                    <input class="checkbox" type="checkbox" name="agreement">
+                    <span class="checkbox-content">Соглашаюсь с рассылкой и принимаю <a class="agreement-terms" href=""> Условия договора </a></span>
+                </label>
+                <button class="btn" type="submit">Отправить</button>
+              </form>   
         </div>
     </div>      
     <script src="./js/modal.js"></script>
